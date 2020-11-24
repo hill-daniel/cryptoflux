@@ -1,4 +1,4 @@
-FROM golang:1.12.0-alpine3.9 AS build-env
+FROM golang:1.15.0-alpine3.12 AS build-env
 
 RUN apk update && apk add git && apk add ca-certificates
 
